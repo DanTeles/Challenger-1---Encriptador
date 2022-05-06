@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="logo" src="img/LogoD.png" alt="Logo-letra-D">
+            <h1 class="titulo-principal">Encriptador de mensagens</h1>                
+        </div>
+    </header>
+    
+    <main>
+        <section class="caixas-de-texto">  
+            <form class="formulario">            
+                <div class="centro">
+                    <textarea name="encriptar" id="encriptador" class="caixa-texto" cols="30" rows="10"></textarea>
+                    <textarea name="desencriptar" id="desencriptador" class="caixa-texto" cols="30" rows="10"></textarea>
+                </div>   
+                <div class="centro">
+                    <button id="botao1" class="botao">Criptografar</button>
+                    <button id="botao2" class="botao">Descriptografar</button>            
+                </div>
+                <div class="centro">
+                    <textarea name="resultado" id="resultado" cols="30" rows="10"></textarea>
+                </div> 
+                <div class="centro">
+                    <button id="copiar" class="botao">Copiar</button>
+                </div>   
+            </form>  
+        </section>
+    </main>
+
+    <footer>
+        <p class="rodape">Danilo Teles Mateus</p>
+        <p class="rodape">danilotelesmateus@hotmail.com</p>
+        <p class="rodape"><a href="https://www.linkedin.com/in/danilo-teles-a51478234/">LinkedIn</a></p>
+        <p class="rodape"><a href="https://github.com/DanTeles?tab=repositories">GitHub</a></p>
+    </footer>
+
+    <script src="JS/encriptador.js"></script>
+    <script src="JS/desemcriptador.js"></script>
+
+</body>
+</html>

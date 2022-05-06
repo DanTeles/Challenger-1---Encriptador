@@ -1,0 +1,100 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* cabecalho*/
+header{
+    background: #155161;
+}
+
+.cabecalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    font-size: 40px;
+    color: white;
+    padding-left: 3em;
+    text-align: center;
+    position: absolute;
+    display: inline;
+    margin-top: 30px;
+}
+/* cabecalho*/
+
+
+
+/*Encriptador*/
+main{
+    background: linear-gradient(#155161, #3e77a5)
+}
+
+.campo-da-cripto{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.centro{
+    text-align: center;
+}
+
+.botao{
+    background: #1e88e5;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    width: 404px;
+    margin-top: 5px;
+    padding: 10px 0;
+}
+
+.botao:hover{
+    background-color: white;
+    color: #1e88e5;
+}
+
+.caixa-texto{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 4px;
+    border: 1px solid #1e88e5;
+    font-size: 16px;
+}
+
+#resultado{
+    margin-top: 5px;
+    border-radius: 4px;
+    width: 809px;
+    font-size: 16px;
+}
+
+#copiar{
+    width: 43%;
+}
+/*Encriptador*/
+
+
+
+/* rodapé*/
+footer {
+	background: linear-gradient(#3e77a5, #488bc2);
+	padding: 20px 0;
+}
+
+.rodape {
+	color: #FFFFfF;
+	font-size: 16px;
+    margin-top: 5px;
+}
+
+#outlook{
+    display: inline-block;
+}
+/* rodapé*/
